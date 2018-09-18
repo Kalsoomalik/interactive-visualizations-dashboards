@@ -114,4 +114,4 @@ def samples_wfreq(sample):
 
 if __name__ == "__main__":
     # port = int(os.environ.get('PORT',5000))
-    app.run(host='interactive-vis-dash.herokuapp.com', port=5000)
+    app.run()
