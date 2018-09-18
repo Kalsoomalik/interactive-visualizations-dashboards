@@ -23,6 +23,7 @@ app = Flask(__name__)
 
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db/bellybutton.sqlite"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS "] = False
+
 db = SQLAlchemy(app)
 
 # reflect an existing database into a new modelj
@@ -113,5 +114,5 @@ def samples_wfreq(sample):
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get('PORT',5000))
-    app.run(host='0.0.0.0', port=port)
+    # port = int(os.environ.get('PORT',5000))
+    app.run(host='0.0.0.0', port=5000)
