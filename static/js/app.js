@@ -58,7 +58,7 @@ function buildCharts(sample) {
         var layout = {
             showlegend: false,
             height: 450,
-            width: 800
+            width: 1100
         };
         Plotly.newPlot("bubble", data, layout);
     });
