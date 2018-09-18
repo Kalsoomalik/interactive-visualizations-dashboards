@@ -1,3 +1,14 @@
+
+
+D3 Code: https://github.com/Kalsoomalik/interactive-visualizations-dashboards/blob/master/static/js/app.js
+
+
+Flask Application: https://github.com/Kalsoomalik/interactive-visualizations-dashboards/blob/master/app.py           
+
+
+Deployment at Heroku: https://interactive-vis-dash.herokuapp.com/
+
+
 # Belly Button Biodiversity
 
 ![Bacteria by filterforge.com](Images/bacteria_by_filterforgedotcom.jpg)
