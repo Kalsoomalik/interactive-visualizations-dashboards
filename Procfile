@@ -1,1 +1,1 @@
-web: gunicorn deploy: app
+worker: python app.py
